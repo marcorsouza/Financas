@@ -6,7 +6,7 @@ using Financas.Core;
 using Financas.Core.Entidades;
 using System.Linq;
 
-namespace Financas.App
+namespace Financas.App.Desktop
 {
     public static class UtilsExtensions {
         public static string RemoveCaracteres(this string text){
@@ -32,7 +32,7 @@ namespace Financas.App
                 //InserirRelatorioAcoes();
                 
                // InsertPapeis(2);
-               InserirRelatorioFiis();
+               //InserirRelatorioFiis();
             }
             catch (System.Exception ex)
             {
